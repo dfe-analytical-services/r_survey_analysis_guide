@@ -2,14 +2,14 @@
 
 ## Purpose
 
-An R project to be used along side [insert link]. This code can be used to learn how to do survey analysis in R or it can be used for your own projects.
+An R project to be used along side [insert link]. This code can be used to learn how to do survey analysis in R or it can be used for your own projects. 
 
 ## Overview
 
 The R project has multiple scripts and this is their purpose:
 
 -   **00_packages_and_functions.R:** Contains packages and custom functions required for the other scripts. 
--   **01_setting_up_workspace:** Code for setting up renv, loading packages and functions and examples of how to change working directories.
+-   **01_setting_up_workspace.R:** Code for setting up renv, loading packages and functions and examples of how to change working directories.
 -   **02_reading_labelling_data.R:**  Code for reading and labelling SPSS and CSV survey data.
 -   **03_formatting_filtering.R:** Code for format and filter survey data.
 -   **04_frequency_tables.R:** Code that uses custom functions to create frequency tables.
@@ -17,6 +17,7 @@ The R project has multiple scripts and this is their purpose:
 -   **06_summary_tables_and_avgs.R:** Code that uses custom functions to create summary tables and weighted averages.
 -   **07_sig_testing.R:** Code for testing for significance.
 -   **08_correlation.R:** Code for testing for correlation.
+-   **09_working_directory.R:** Code for checking working directory and also examples of how to change working directories.
 
 
 # Requirements
@@ -31,9 +32,6 @@ The R project has multiple scripts and this is their purpose:
 
 -   [See getting started with Quarto](https://quarto.org/docs/get-started/)
 
-## Access
-
-To get this code, follow the instructions here(insert link) to either download or fork this repo. 
 
 ## Skills and knowledge
 
@@ -47,6 +45,7 @@ To get this code, follow the instructions here(insert link) to either download o
 -   To use renv for version control in this project follow these steps: 
 
     -   Install the renv package by typing this in the console: `install.packages("renv")`
+    -   Then type `y` in the console and press "Enter" on the keyboard
     -   Then type this in the console: `renv::restore()`
     -   Then type `y` in the console and press "Enter" on the keyboard
     
