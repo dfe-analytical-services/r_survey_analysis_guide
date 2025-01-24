@@ -65,10 +65,10 @@ survey_freq_table(data=TELSdata,
                   output = "download")
 
 
-# 4.3 - Un-weighted data --------------------------------------------------
+# 4.3 - Unweighted data --------------------------------------------------
 
 
-# un-weighted - survey_freq_table()-------------------------------------------------------------
+# unweighted - survey_freq_table()-------------------------------------------------------------
 
 
 #create an un-weighted frequency table for the variable 'WrkStud

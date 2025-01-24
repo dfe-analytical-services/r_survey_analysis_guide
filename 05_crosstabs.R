@@ -150,7 +150,7 @@ survey_crosstab(
 )
 
 
-# 5.3 - Un-weighted data -------------------------------------------------------------
+# 5.3 - Unweighted data -------------------------------------------------------------
 #do this by leaving the weight parameter undefined
 
 
@@ -172,7 +172,7 @@ survey_crosstab(
 )
 
 
-# un-weighted three way cross tabs - FF_Sex, WrkStud and multiple variables
+# unweighted three way cross tabs - FF_Sex, WrkStud and multiple variables
 
 survey_crosstab(
   #outline data

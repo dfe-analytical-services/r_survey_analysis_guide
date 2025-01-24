@@ -43,7 +43,7 @@ create_summary_table(data=TELSdata,
                      output = "print")
 
 
-# 6.2.3 - Un-weighted data -------------------------------------------------------------
+# 6.2.3 - Unweighted data -------------------------------------------------------------
 
 # List of variables to loop through
 variables <- c("FF_Sex", "FF_Ethnic5", "SEN_DV", "FSM_DV")

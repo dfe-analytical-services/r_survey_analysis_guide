@@ -246,7 +246,7 @@ labelling_data <- function(data,
 #'
 #' @param data Data to create the frequency table from
 #' @param variables The column name(s) for variable(s) you want the frequency table for. Must be in quotes.
-#' @param weight  The name of the column that contains the weights. Must be in quotes.
+#' @param weight  The name of the column that contains the weights. Must be in quotes. Default is NULL for unweighted tables.
 #' @param output  The type of output you want from the function. The available options are NULL, "download" and "print".
 #' NULL is the default and it allows you to save the table to the environment when you use the function for a single variable.
 #' "print" prints the frequency tables in the console - can be used for single or multiple variables.
@@ -346,7 +346,7 @@ survey_freq_table <- function(data,
 #' @param x The column name for the independent variable. Must be in quotes.
 #' @param y The column name for the dependent variable. Must be in quotes.
 #' @param z The column name for the second control variable. Must be in quotes.
-#' @param weight  The name of the column that contains the weights. Must be in quotes.
+#' @param weight  The name of the column that contains the weights. Must be in quotes. Default is NULL for unweighted tables.
 #' @param output  The type of output you want from the function. The available options are NULL, "download" and "print".
 #' NULL is the default and it allows you to save the table to the environment when you use the function for a single variable.
 #' "print" prints the frequency tables in the console - can be used for single or multiple variables.
@@ -471,7 +471,7 @@ survey_crosstab <- function(data ,
 #' @param data Data to create the summary table from
 #' @param variables The column name(s) for variable(s) you want the summary table for. Must be in quotes.
 #'  These need to be numeric and not categorical data.
-#' @param weight  The name of the column that contains the weighting variable. If NULL, table will be un-weighted.
+#' @param weight  The name of the column that contains the weighting variable. Default is NULL for unweighted tables.
 #' @param output  The type of output you want from the function.
 #' The available options are NULL, "download" and "print".
 #' NULL is the default will allow you to save a single table in the environment. It cannot be used when you have more than one variable.
