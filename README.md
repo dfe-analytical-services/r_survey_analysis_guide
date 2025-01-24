@@ -2,7 +2,7 @@
 
 ## Purpose
 
-An R project to be used along side [insert link]. This code can be used to learn how to do survey analysis in R or it can be used for your own projects. 
+An R project to be used along side [SuRvey analysis guide in R](https://dfe-analytical-services.github.io/survey_analysis_in_r/). This code can be used to learn how to do survey analysis in R or it can be used for your own projects. 
 
 ## Overview
 
